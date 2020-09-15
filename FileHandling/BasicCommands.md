@@ -2,3 +2,4 @@ Here is some Basic Commands for file handling:
 1. cd : It is used for change directory.
 2. ls: Use to show the contents of a directory
 3. pwd: Shows the present working directory
+4. touch : Can create new files

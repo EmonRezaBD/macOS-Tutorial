@@ -1,0 +1,111 @@
+1. cd : 1. show current directory
+		 2. can naviagte other directories
+
+2. dir : shows all the contents of a directory
+
+3. dir /a : show all the hidden files.
+
+*** command /option is general instructrion
+
+4. cls: clear the screen
+
+5. dir *.png : will show all files conatains .png .
+
+6. supppose you want to open a file or application : just type the name of that. It will open with the selected apps.
+
+7. To jump another dir: cd Desktop\L3T2
+You need to write like this.
+
+8.To know all the informations of a command: ipconfig /?
+
+9.To make a directory : mkdir newDir
+
+10.To delete a directory: rmdir newDir
+	But if there are other folders inside it then it can't be deletd. 
+
+11. To delete a dir including all stuffs in it: rmdir /s dirName
+
+****navigating in the line of terminal:
+		press Home button to come leftmost in the line
+		press End button to go rightmost in the line
+		press cntrl+left key to go word by word.
+		same for cntrl+right key
+
+
+12.Relative path: cd Desktop
+   Absolute path: cd "C:\program files" , in this way we can go to any directory.
+
+13.We can run any .exe file from anywhere in the PC:
+
+path : will give the windows path
+But first we need to add that to our system path.
+then just wirte the name of that .exe file from anywhere.
+It will run.
+
+14. wmic logicaldisk get name: gives all the disks name
+
+*** To switch between drives, you need to write the first letter of that drive.
+
+To jump in desktop or somthing from that drive mode, type
+cd Users\Reza\Desktop
+
+
+15. tree : will show the tree of directories.
+
+***In c drive
+	Program files stores 64 bit program files
+	Program files(x86) stores 32bit program files
+
+16. color 0B : will change the color of the text in command line
+
+We can also change the background color.
+
+0B : 0 represents the background color and B represents the foreground/text color.
+
+17. color : will bring back to default window
+
+File attiribute:
+
+18. echo  hello world > test.txt
+ It will create a file named test.txt and insert the line hello world
+
+ 19. attrib : will show all attributes 
+we can change the attributes and make it hidden.
+
+attrib +h test.txt
+
+attrib +r -h test.txt -> add read only mode and remove the hidden mode.
+
+20. del fileNAme.extension : will delete the file
+
+21. type reza.txt : will show the content of that file
+
+22. echo this is append >> reza.txt : will append this line after existing lines.
+
+23. dir > reza.txt : will save all the informations we can see in the cmd in reza.txt file
+
+In this way we save any command's output 
+
+24.copy filename destination : will copy the file in the destination
+
+ex. copy reza.txt "F:\GUI Programming"
+
+25. xcopy filename destination : will copy the file in the destination ***
+
+xcopy is recommended because it gives more features.
+
+**xcopy copies only files , not copy any sub directories. 
+so we should tell to copy sub dirs also.
+
+
+xcopy Apples bacon /s : will copy as it was before.
+
+
+26. move Apples "F:\Gui Programming" : will move in that distination.
+
+27. rename Apples Orange:
+
+Apples will renamed to Orange. 
+
+
+

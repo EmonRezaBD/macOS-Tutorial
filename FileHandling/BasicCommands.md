@@ -4,3 +4,4 @@ Here is some Basic Commands for file handling:
 3. pwd: Shows the present working directory
 4. touch : Can create new files
 5. cat : used for seeing the content of a file
+6. grep: use to separate some contents

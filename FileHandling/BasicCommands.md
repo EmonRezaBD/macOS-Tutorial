@@ -5,3 +5,4 @@ Here is some Basic Commands for file handling:
 4. touch : Can create new files
 5. cat : used for seeing the content of a file
 6. grep: use to separate some contents
+7. clear : will clear the entire screen

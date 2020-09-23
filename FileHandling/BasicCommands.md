@@ -6,3 +6,4 @@ Here is some Basic Commands for file handling:
 5. cat : used for seeing the content of a file
 6. grep: use to separate some contents
 7. clear : will clear the entire screen
+8. exit: This will exit the current terminal

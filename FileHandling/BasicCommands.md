@@ -8,3 +8,4 @@ Here is some Basic Commands for file handling:
 7. clear : will clear the entire screen
 8. exit: This will exit the current terminal
 9. mkdir: use for making a new directory
+10. rmdir : To remove a directory

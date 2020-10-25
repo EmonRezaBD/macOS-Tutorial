@@ -10,3 +10,4 @@ Here is some Basic Commands for file handling:
 9. mkdir: use for making a new directory
 10. rmdir : To remove a directory
 11. rm -s directoryName : to remove a directory
+12. nano filename.txt : to edit with nano

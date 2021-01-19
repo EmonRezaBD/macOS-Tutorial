@@ -12,3 +12,4 @@ Here is some Basic Commands for file handling:
 11. rm -s directoryName : to remove a directory
 12. nano filename.txt : to edit with nano
 13. vim filename : to open and edit with vim
+14. exit : to exit the current session.
